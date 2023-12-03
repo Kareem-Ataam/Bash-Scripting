@@ -18,9 +18,9 @@ Example running the script:
 ```
 
 ## disk_space_monitor.sh
-This script checks the avilable disk space on a filesystem you specify and if it's below a threshold (you specify) it will give an alert
+This script checks the available disk space on a filesystem you specify and if it's below a threshold (you specify) it will give an alert
 
-Positional paramters: It takes two parameters 1->the file system 2->threshold(MB)
+Positional parameters: It takes two parameters 1->the file system 2->threshold(MB)
 
 Example running the script: 
 ```

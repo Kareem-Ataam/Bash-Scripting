@@ -39,3 +39,5 @@ Put this line in the file: * * * * * path/of/script &>>/var/log/httpd_monit.log
 ```
 Here we also directed the output of the script to a log file.
 
+## download_images.sh
+This script is used to download a set of images that their URLs are specified in the script 

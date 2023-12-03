@@ -27,14 +27,15 @@ Example running the script:
 ./disk_space_monitor.sh /dev/sda1 512
 ```
 
-##monit.sh
-This script monitors the httpd service on the machine and start it if it was stopped
+## monit.sh
+This script monitors the httpd service on the machine and start it if it was stopped.
 
-You can the schedule the script to run for example every minute through cron jobs so you are continuously monitoring the service
-**_To add it as a crob job that runs every minute_**
+You can the schedule the script to run for example every minute through cron jobs so you are continuously monitoring the service.
+
+**_To add it as a crob job that runs every minute:_**
 ```
 Issue the command: crontab -e
 Put this line in the file: * * * * * path/of/script &>>/var/log/httpd_monit.sh
 ```
-Here we also directed the output of the script to a log file
+Here we also directed the output of the script to a log file.
 

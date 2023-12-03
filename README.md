@@ -16,3 +16,14 @@ Example running the script:
 ```
 ./web_setup.sh https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
 ```
+
+## disk_space_monitor.sh
+This script checks the avilable disk space on a filesystem you specify and if it's below a threshold (you specify) it will give an alert
+
+Positional paramters: It takes two parameters 1->the file system 2->threshold(MB)
+
+Example running the script: 
+```
+./disk_space_monitor.sh /dev/sda1 512
+```
+

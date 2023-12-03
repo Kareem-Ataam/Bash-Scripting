@@ -4,7 +4,7 @@
 ###You can the schedule the script to run for example every minute through cron jobs so you are continuously monitoring the service
 ###To add it as a crob job that runs every minute
 ###Issue the command: crontab -e
-###Put this line in the file: * * * * * path/of/script &>>/var/log/httpd_monit.sh
+###Put this line in the file: * * * * * path/of/script &>>/var/log/httpd_monit.log
 ###Here we also directed the output of the script to a log file
 ###############
 

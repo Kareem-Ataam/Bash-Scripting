@@ -40,4 +40,13 @@ Put this line in the file: * * * * * path/of/script &>>/var/log/httpd_monit.log
 Here we also directed the output of the script to a log file.
 
 ## download_images.sh
-This script is used to download a set of images that their URLs are specified in the script 
+This script is used to download a set of images that their URLs are specified in the script.
+
+## multios_web_setup
+This directory contains the files of a script that works on a master machine and execute a web setup script on other target machines.
+
+**_multios_web_setup.sh_**:The file of the web server setup that will be transmitted from the master to the targets and executed using ssh.
+
+**_remote_hosts_**: Define the name of the target machines that the script will be executed on.
+
+**_remote_execute.sh_**:The script that takes the script from the master machine and copy it to each one of the target machines and execute it.

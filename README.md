@@ -50,3 +50,12 @@ This directory contains the files of a script that works on a master machine and
 **_remote_hosts_**: Define the name of the target machines that the script will be executed on.
 
 **_remote_execute.sh_**:The script that takes the script from the master machine and copy it to each one of the target machines and execute it.
+
+## count_files.sh
+This script counts the number of different file types in a directory that you give its path to the script as a parameter
+
+Positional parameters:/path/of/directory
+```
+Example running the script:./count_files.sh /dev/
+```
+

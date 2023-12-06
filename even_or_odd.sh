@@ -5,7 +5,7 @@
 
 read -p "Enter a number:" NUM
 # =~ is used for pattern matching 
-# We used double square brackets with if instead os single as they support more features one of them is pattern matching
+# We used double square brackets with if instead of single as they support more features one of them is pattern matching
 
 #Validate if the given input is an integer number
 if [[ $NUM =~ ^-?[0-9]+$ ]]; then

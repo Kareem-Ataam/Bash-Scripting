@@ -59,3 +59,5 @@ Positional parameters:/path/of/directory
 Example running the script:./count_files.sh /dev/
 ```
 
+## even_or_odd.sh
+This script takes a number from the user and checks if it's even or odd

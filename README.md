@@ -61,3 +61,6 @@ Example running the script:./count_files.sh /dev/
 
 ## even_or_odd.sh
 This script takes a number from the user and checks if it's even or odd
+
+## password_checker.sh
+This script takes a password from the user and check if it matches a specific password or not

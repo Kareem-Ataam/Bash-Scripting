@@ -65,7 +65,7 @@ This script takes a number from the user and checks if it's even or odd
 ## password_checker.sh
 This script takes a password from the user and check if it matches a specific password or not
 
-##backup.sh
+## backup.sh
 This script takes a full or incremental (as the user need) backup of a directory called images in the home directory of the user executing the script.
 
 Positional parameters: type of backup-- either full or incremental.

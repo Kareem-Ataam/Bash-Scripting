@@ -73,4 +73,17 @@ Positional parameters: type of backup-- either full or incremental.
 Running the script: 
 ```
 ./backup.sh full or ./backup.sh incremental
+
 ```
+
+## user_account_manager.sh
+User Account Management Script
+
+With this script you can perform alot of user managment activities such as:
+	- Adding new user
+	- Removing an existing one
+	- Modifying user info (password, username, add to group, lock or unlock a user)
+	- Searching for a user
+	- Listing existing users
+Must run the user with root privillegs
+

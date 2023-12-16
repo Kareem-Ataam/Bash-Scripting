@@ -80,6 +80,7 @@ Running the script:
 User Account Management Script
 
 With this script you can perform alot of user managment activities such as:
+
 	- Adding new user
 	- Removing an existing one
 	- Modifying user info (password, username, add to group, lock or unlock a user)
